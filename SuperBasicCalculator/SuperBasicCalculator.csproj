@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{38BB5C71-4743-4922-8243-3A214B76E184}</ProjectGuid>
+    <ProjectGuid>{F5442677-DB9C-4145-9DC7-92EE57BB874C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Calculators</RootNamespace>
-    <AssemblyName>Calculators</AssemblyName>
+    <RootNamespace>SuperBasicCalculator</RootNamespace>
+    <AssemblyName>SuperBasicCalculator</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="APRCalculator.cs" />
-    <Compile Include="CompoundCalculator.cs" />
-    <Compile Include="InterestRateCalculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
