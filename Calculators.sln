@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperBasicCalculator", "SuperBasicCalculator\SuperBasicCalculator.csproj", "{F5442677-DB9C-4145-9DC7-92EE57BB874C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABetterCalculator", "ABetterCalculator\ABetterCalculator.csproj", "{45F932AF-825A-4AFC-9061-FFA5E96FD691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABetterCalculator.UnitTests", "ABetterCalculator.UnitTests\ABetterCalculator.UnitTests.csproj", "{C8477AC1-E5C8-4F2B-B7B8-5024AE549714}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F5442677-DB9C-4145-9DC7-92EE57BB874C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5442677-DB9C-4145-9DC7-92EE57BB874C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5442677-DB9C-4145-9DC7-92EE57BB874C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F932AF-825A-4AFC-9061-FFA5E96FD691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F932AF-825A-4AFC-9061-FFA5E96FD691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F932AF-825A-4AFC-9061-FFA5E96FD691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F932AF-825A-4AFC-9061-FFA5E96FD691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8477AC1-E5C8-4F2B-B7B8-5024AE549714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8477AC1-E5C8-4F2B-B7B8-5024AE549714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8477AC1-E5C8-4F2B-B7B8-5024AE549714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8477AC1-E5C8-4F2B-B7B8-5024AE549714}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
