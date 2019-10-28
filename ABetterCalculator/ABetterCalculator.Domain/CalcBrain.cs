@@ -8,7 +8,7 @@ namespace ABetterCalculator.ABetterCalculator.Domain
 {
     public class CalcBrain
     {
-        private decimal _total = 0.0m;
+        private decimal _total;
         private string _selectedOperation;
 
         public void Run()

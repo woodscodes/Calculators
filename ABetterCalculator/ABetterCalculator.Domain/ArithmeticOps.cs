@@ -58,13 +58,27 @@ namespace ABetterCalculator.ABetterCalculator.Domain
             else if (userInput == "-")
                 return _total - number;
             else if (userInput == "/")
-                //check divisable is not 0
-                if (number == 0)
-                    throw new DivideByZeroException("Please use a value above or below 0");
-                else
-                    return _total / number;
+                return PerformDivisionChecks(number);
             else
-                return _total * number;
+                return PerformMultiplicationChecks(number);                
+        }
+
+        private static decimal PerformMultiplicationChecks(decimal number)
+        {            
+            if (_total == 0)
+                return _total = number;
+
+            return _total * number;
+        }
+
+        private static decimal PerformDivisionChecks(decimal number)
+        {
+            if (number == 0)
+                throw new DivideByZeroException("Please use a value above or below 0");
+            else if (_total == 0)
+                return _total = number;   
+            
+            return _total / number;
         }
     }
 }
