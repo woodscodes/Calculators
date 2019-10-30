@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ABetterCalculator.ABetterCalculator.Helpers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -48,12 +49,7 @@ namespace ABetterCalculator.ABetterCalculator.Domain
             Console.WriteLine("What do you want to do?");
             Console.WriteLine("(enter '+' for add, '-' for subtract, '*' for multiply and '/' for divide, or press 'd' for done.");
             _selectedOperation = Console.ReadLine();
-            PerformValidationOnSelection(_selectedOperation);
-        }
-
-        private void PerformValidationOnSelection(string selectedOperation)
-        {
-            // implement me
-        }
+            Validation.PerformValidationOnSelection(_selectedOperation);
+        }        
     }
 }

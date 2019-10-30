@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ABetterCalculator.ABetterCalculator.Helpers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -44,7 +45,10 @@ namespace ABetterCalculator.ABetterCalculator.Domain
                     else
                         throw new Exception("Input not valid");
                 else
-                    _total = PerformCalculation(userInput, number);              
+                {
+                    Validation.PerformValidationOnDecimalInput(number);
+                    _total = PerformCalculation(userInput, number);           
+                }
             }
             Console.WriteLine($"Current total is {_total}");
 

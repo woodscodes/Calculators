@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="ABetterCalculator.Domain\ArithmeticOps.cs" />
     <Compile Include="ABetterCalculator.Domain\CalcBrain.cs" />
+    <Compile Include="ABetterCalculator.Helpers\Validation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
